@@ -264,9 +264,9 @@ $(document).ready(function () {
 
     for (var j = 0; j < member_list[i].socials.length; j++) {
       if (member_list[i].socials[j].includes("youtube")) {
-        var social_div = document.createElement("div")
+        let social_div = document.createElement("div")
         $(social_div).addClass("mx-1")
-        var current_social =
+        let current_social =
           '<a class="bio-youtube p-1" href= ' +
           member_list[i].socials[j] +
           ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#youtube" /> </svg></a>'
@@ -274,9 +274,9 @@ $(document).ready(function () {
         social_div.innerHTML = current_social
         footer_div.append(social_div)
       } else if (member_list[i].socials[j].includes(".x.")) {
-        var social_div = document.createElement("div")
+        let social_div = document.createElement("div")
         $(social_div).addClass("mx-1")
-        var current_social =
+        let current_social =
           '<a class="p-1" href= ' +
           member_list[i].socials[j] +
           ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#twitter" /> </svg></a>'
@@ -284,9 +284,9 @@ $(document).ready(function () {
         social_div.innerHTML = current_social
         footer_div.append(social_div)
       } else if (member_list[i].socials[j].includes("instagram")) {
-        var social_div = document.createElement("div")
+        let social_div = document.createElement("div")
         $(social_div).addClass("mx-1")
-        var current_social =
+        let current_social =
           '<a class="bio-instagram p-1" href= ' +
           member_list[i].socials[j] +
           ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#instagram" /> </svg></a>'
@@ -294,9 +294,9 @@ $(document).ready(function () {
         social_div.innerHTML = current_social
         footer_div.append(social_div)
       } else if (member_list[i].socials[j].includes("twitch")) {
-        var social_div = document.createElement("div")
+        let social_div = document.createElement("div")
         $(social_div).addClass("mx-1")
-        var current_social =
+        let current_social =
           '<a class="bio-twitch p-1" href= ' +
           member_list[i].socials[j] +
           ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#twitch" /> </svg></a>'
