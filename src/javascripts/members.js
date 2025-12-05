@@ -269,7 +269,7 @@ $(document).ready(function () {
         let current_social =
           '<a class="bio-youtube p-1" href= ' +
           member_list[i].socials[j] +
-          ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#youtube" /> </svg></a>'
+          ' target="_blank"><svg class="bi  svg-custom" width="24" height="24"> <use xlink:href="#youtube" /> </svg></a>'
 
         social_div.innerHTML = current_social
         footer_div.append(social_div)
@@ -279,7 +279,7 @@ $(document).ready(function () {
         let current_social =
           '<a class="p-1" href= ' +
           member_list[i].socials[j] +
-          ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#twitter" /> </svg></a>'
+          ' target="_blank"><svg class="bi  svg-custom" width="24" height="24"> <use xlink:href="#twitter" /> </svg></a>'
 
         social_div.innerHTML = current_social
         footer_div.append(social_div)
@@ -287,7 +287,7 @@ $(document).ready(function () {
         let social_div = document.createElement("div")
         $(social_div).addClass("mx-1")
         let current_social =
-          '<a class="bio-instagram p-1" href= ' +
+          '<a class="bio-instagram svg-custom p-1" href= ' +
           member_list[i].socials[j] +
           ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#instagram" /> </svg></a>'
 
@@ -297,7 +297,7 @@ $(document).ready(function () {
         let social_div = document.createElement("div")
         $(social_div).addClass("mx-1")
         let current_social =
-          '<a class="bio-twitch p-1" href= ' +
+          '<a class="bio-twitch  svg-custom p-1" href= ' +
           member_list[i].socials[j] +
           ' target="_blank"><svg class="bi" width="24" height="24"> <use xlink:href="#twitch" /> </svg></a>'
 

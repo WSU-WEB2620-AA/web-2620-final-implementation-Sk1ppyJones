@@ -4,4 +4,4 @@ require.context("../images/", true, /\.(png|jpg|jpeg|gif|svg)$/i)
 require("../stylesheets/main.scss")
 
 //TODO - Your ES6 JavaScript code (if any) goes here
-//import * as bootstrap from "bootstrap"
+import * as bootstrap from "bootstrap"
