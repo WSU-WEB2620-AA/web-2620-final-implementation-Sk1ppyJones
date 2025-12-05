@@ -1,1 +1,26 @@
 // Your styles go here
+@use "sass:color";
+
+$primary: #33c6ff;
+$primary-light: #86ddff;
+$primary-dark: #00a6e6;
+$secondary: #2596be;
+$secondary-light: #aed1e8;
+$secondary-dark: #6e828f;
+
+$success: #92ff9f;
+$danger: #ff8181;
+$warning: #fffb81;
+$info: #a3bccc;
+
+// bootstrap import
+@import "bootstrap/scss/bootstrap";
+
+.svg-custom {
+  color: $primary;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, $primary-light 0%, color.adjust($secondary-light, $lightness: 10%) 100%);
+  color: white;
+}
